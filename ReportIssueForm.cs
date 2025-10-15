@@ -2,6 +2,7 @@ using System;
 using System.Windows.Forms;
 using System.IO;
 
+
 namespace MunicipalityApp
 {
     public partial class ReportIssueForm : Form
@@ -70,3 +71,4 @@ namespace MunicipalityApp
         }
     }
 }
+
