@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|c:\\users\\lab_services_student\\source\\repos\\muniappl2\\eventsdatastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:eventsdatastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|c:\\users\\lab_services_student\\source\\repos\\muniappl2\\viewissuesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:viewissuesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|c:\\users\\lab_services_student\\source\\repos\\muniappl2\\nuget.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:nuget.exe||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\reportissueform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:reportissueform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|c:\\users\\lab_services_student\\source\\repos\\muniappl2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|c:\\users\\lab_services_student\\source\\repos\\muniappl2\\eventdetailsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:eventdetailsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|c:\\users\\lab_services_student\\source\\repos\\muniappl2\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -19,32 +27,8 @@
       "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:viewissuesform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|c:\\users\\lab_services_student\\source\\repos\\muniappl2\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|c:\\users\\lab_services_student\\source\\repos\\muniappl2\\reportissueform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:reportissueform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|c:\\users\\lab_services_student\\source\\repos\\muniappl2\\eventdetailsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:eventdetailsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|c:\\users\\lab_services_student\\source\\repos\\muniappl2\\localeventsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:localeventsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|c:\\users\\lab_services_student\\source\\repos\\muniappl2\\localeventsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:localeventsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|c:\\users\\lab_services_student\\source\\repos\\muniappl2\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|c:\\users\\lab_services_student\\source\\repos\\muniappl2\\datastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60760090-4D2F-9376-999B-9F2570901DB2}|MunicipalityApp.csproj|solutionrelative:datastorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,22 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "nuget.exe",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\nuget.exe",
-              "RelativeDocumentMoniker": "nuget.exe",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\nuget.exe",
-              "RelativeToolTip": "nuget.exe",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000165|",
-              "WhenOpened": "2025-10-15T20:24:58.213Z"
             },
             {
               "$type": "Bookmark",
@@ -81,7 +54,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewIssuesForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\ViewIssuesForm.cs",
+              "RelativeDocumentMoniker": "ViewIssuesForm.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\ViewIssuesForm.cs [Design]",
+              "RelativeToolTip": "ViewIssuesForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T20:37:44.659Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T20:37:15.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventDetailsForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\EventDetailsForm.Designer.cs",
+              "RelativeDocumentMoniker": "EventDetailsForm.Designer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\EventDetailsForm.Designer.cs",
+              "RelativeToolTip": "EventDetailsForm.Designer.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwBQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T20:36:05.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -98,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "LocalEventsForm.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\LocalEventsForm.cs",
               "RelativeDocumentMoniker": "LocalEventsForm.cs",
@@ -111,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ViewIssuesForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\ViewIssuesForm.Designer.cs",
               "RelativeDocumentMoniker": "ViewIssuesForm.Designer.cs",
@@ -119,97 +130,24 @@
               "RelativeToolTip": "ViewIssuesForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T18:43:47.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ReportIssueForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\ReportIssueForm.Designer.cs",
-              "RelativeDocumentMoniker": "ReportIssueForm.Designer.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\ReportIssueForm.Designer.cs",
-              "RelativeToolTip": "ReportIssueForm.Designer.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwFwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T18:43:25.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LocalEventsForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\LocalEventsForm.Designer.cs",
-              "RelativeDocumentMoniker": "LocalEventsForm.Designer.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\LocalEventsForm.Designer.cs",
-              "RelativeToolTip": "LocalEventsForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T17:52:07.973Z",
+              "WhenOpened": "2025-10-15T18:43:47.204Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\MainForm.Designer.cs",
-              "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AgIAAFMAAABAMzMzM/MhwFQAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T17:51:59.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EventsDataStorage.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\EventsDataStorage.cs",
-              "RelativeDocumentMoniker": "EventsDataStorage.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\EventsDataStorage.cs",
-              "RelativeToolTip": "EventsDataStorage.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAAUwHkBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T16:46:56.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DataStorage.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\DataStorage.cs",
-              "RelativeDocumentMoniker": "DataStorage.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\DataStorage.cs",
-              "RelativeToolTip": "DataStorage.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T16:46:44.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\Event.cs",
-              "RelativeDocumentMoniker": "Event.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\Event.cs",
-              "RelativeToolTip": "Event.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA/wBEAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T16:46:31.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EventDetailsForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\EventDetailsForm.Designer.cs",
-              "RelativeDocumentMoniker": "EventDetailsForm.Designer.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\EventDetailsForm.Designer.cs",
-              "RelativeToolTip": "EventDetailsForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T16:46:08.989Z"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportIssueForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\ReportIssueForm.cs",
+              "RelativeDocumentMoniker": "ReportIssueForm.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\ReportIssueForm.cs [Design]",
+              "RelativeToolTip": "ReportIssueForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T19:06:46.304Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
