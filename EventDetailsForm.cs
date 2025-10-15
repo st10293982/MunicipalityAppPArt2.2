@@ -1,6 +1,7 @@
 using System;
 using System.Windows.Forms;
 
+
 namespace MunicipalityApp
 {
     public partial class EventDetailsForm : Form
@@ -34,3 +35,4 @@ namespace MunicipalityApp
         }
     }
 }
+
