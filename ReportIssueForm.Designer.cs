@@ -2,14 +2,10 @@ namespace MunicipalityApp
 {
     partial class ReportIssueForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+        
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
+        
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
@@ -22,17 +18,14 @@ namespace MunicipalityApp
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+        
         private void InitializeComponent()
         {
             // --- Theme Colors and Fonts ---
             var primaryBlue = System.Drawing.Color.FromArgb(0, 30, 60); // Deep Navy Blue
-            var accentGold = System.Drawing.Color.FromArgb(255, 215, 0); // Gold
+            var accentGreen = System.Drawing.ColorTranslator.FromHtml("#32CD32"); // New green accent
             var lightTextColor = System.Drawing.Color.White;
-            var controlBackColor = System.Drawing.Color.FromArgb(0, 50, 100); // Slightly Lighter Blue
+            var controlBackColor = System.Drawing.ColorTranslator.FromHtml("#3e8ede"); // Blue background
 
             var labelFont = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             var inputFont = new System.Drawing.Font("Segoe UI", 9.5F);
@@ -55,7 +48,7 @@ namespace MunicipalityApp
             this.Text = "Report an Issue";
             this.Width = 550;
             this.Height = 600;
-            this.BackColor = primaryBlue;
+            this.BackColor = System.Drawing.ColorTranslator.FromHtml("#3e8ede");
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Name = "ReportIssueForm";
@@ -65,7 +58,7 @@ namespace MunicipalityApp
             lblLocation.Text = "Location:";
             lblLocation.Top = 40;
             lblLocation.Left = 30;
-            lblLocation.ForeColor = accentGold;
+            lblLocation.ForeColor = accentGreen;
             lblLocation.Font = labelFont;
             lblLocation.AutoSize = true;
 
@@ -82,7 +75,7 @@ namespace MunicipalityApp
             lblCategory.Text = "Category:";
             lblCategory.Top = 80;
             lblCategory.Left = 30;
-            lblCategory.ForeColor = accentGold;
+            lblCategory.ForeColor = accentGreen;
             lblCategory.Font = labelFont;
             lblCategory.AutoSize = true;
 
@@ -95,13 +88,14 @@ namespace MunicipalityApp
             this.cmbCategory.Font = inputFont;
             this.cmbCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbCategory.Items.AddRange(new string[] { "Water", "Electricity", "Roads", "Sanitation" });
-
+            this.cmbCategory.Items.AddRange(new string[] {
+        "Community", "Sports", "Government", "Culture", "Education", "Health", "Environment", "Arts", "Business", "Recreation"
+    });
             // lblDescription
             lblDescription.Text = "Description:";
             lblDescription.Top = 120;
             lblDescription.Left = 30;
-            lblDescription.ForeColor = accentGold;
+            lblDescription.ForeColor = accentGreen;
             lblDescription.Font = labelFont;
             lblDescription.AutoSize = true;
 
@@ -125,7 +119,7 @@ namespace MunicipalityApp
             this.btnAttach.BackColor = controlBackColor;
             this.btnAttach.ForeColor = lightTextColor;
             this.btnAttach.Font = buttonFont;
-            this.btnAttach.FlatAppearance.BorderColor = accentGold;
+            this.btnAttach.FlatAppearance.BorderColor = accentGreen;
             this.btnAttach.FlatAppearance.BorderSize = 1;
             this.btnAttach.Click += new System.EventHandler(this.AttachFile);
 
@@ -136,7 +130,7 @@ namespace MunicipalityApp
             this.btnSubmit.Width = 165;
             this.btnSubmit.Height = 40;
             this.btnSubmit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSubmit.BackColor = accentGold;
+            this.btnSubmit.BackColor = accentGreen;
             this.btnSubmit.ForeColor = primaryBlue;
             this.btnSubmit.Font = buttonFont;
             this.btnSubmit.FlatAppearance.BorderSize = 0;
@@ -152,7 +146,7 @@ namespace MunicipalityApp
             this.btnBack.BackColor = controlBackColor;
             this.btnBack.ForeColor = lightTextColor;
             this.btnBack.Font = buttonFont;
-            this.btnBack.FlatAppearance.BorderColor = accentGold;
+            this.btnBack.FlatAppearance.BorderColor = accentGreen;
             this.btnBack.FlatAppearance.BorderSize = 1;
             this.btnBack.Click += (s, e) => this.Close();
 

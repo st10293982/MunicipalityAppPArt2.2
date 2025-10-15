@@ -241,5 +241,10 @@ namespace MunicipalityApp
             };
             this.Controls.Add(btnHighPriority);
         }
+
+        private void lblRec_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -42,6 +42,8 @@ namespace MunicipalityApp
             }
         }
 
+
+
         private static string GenerateUniqueReportNumber(SqliteConnection connection)
         {
             string reportNumber;
@@ -62,6 +64,8 @@ namespace MunicipalityApp
             long count = result != null ? (long)result : 0;
             return count > 0;
         }
+
+
 
         public static string AddIssue(string location, string category, string description, string filePath)
         {

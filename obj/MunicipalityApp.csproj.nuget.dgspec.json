@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lab_services_student\\Desktop\\prog7312-poe-part-1-ST10299658-main\\MunicipalityApp.csproj": {}
+    "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\MunicipalityApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lab_services_student\\Desktop\\prog7312-poe-part-1-ST10299658-main\\MunicipalityApp.csproj": {
+    "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\MunicipalityApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lab_services_student\\Desktop\\prog7312-poe-part-1-ST10299658-main\\MunicipalityApp.csproj",
+        "projectUniqueName": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\MunicipalityApp.csproj",
         "projectName": "MunicipalityApp",
-        "projectPath": "C:\\Users\\lab_services_student\\Desktop\\prog7312-poe-part-1-ST10299658-main\\MunicipalityApp.csproj",
+        "projectPath": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\MunicipalityApp.csproj",
         "packagesPath": "C:\\Users\\lab_services_student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lab_services_student\\Desktop\\prog7312-poe-part-1-ST10299658-main\\obj\\",
+        "outputPath": "C:\\Users\\lab_services_student\\source\\repos\\muniappl2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lab_services_student\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\lab_services_student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,24 +70,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.20, 8.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -90,7 +78,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -37,7 +37,7 @@ namespace MunicipalityApp
             // --- Form Styling ---
             this.Text = "Submitted Issues";
             this.ClientSize = new System.Drawing.Size(800, 500);
-            this.BackColor = primaryBlue;
+            this.BackColor = System.Drawing.ColorTranslator.FromHtml("#3e8ede");
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Name = "ViewIssuesForm";
 

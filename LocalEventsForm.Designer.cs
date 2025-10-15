@@ -7,9 +7,7 @@ namespace MunicipalityApp
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
+        
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
@@ -28,286 +26,288 @@ namespace MunicipalityApp
         /// </summary>
         private void InitializeComponent()
         {
-            // Theme Colors and Fonts
-            var primaryBlue = System.Drawing.Color.FromArgb(0, 30, 60);
-            var accentGold = System.Drawing.Color.FromArgb(255, 215, 0);
-            var lightTextColor = System.Drawing.Color.WhiteSmoke;
-            var controlBackColor = System.Drawing.Color.FromArgb(0, 50, 100);
-            var titleFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            var buttonFont = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
-            var labelFont = new System.Drawing.Font("Segoe UI", 9.5F);
-
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-
-            this.searchTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
-            this.lblCategory = new System.Windows.Forms.Label();
-            this.cmbCategory = new System.Windows.Forms.ComboBox();
-            this.lblStartDate = new System.Windows.Forms.Label();
-            this.dtpStart = new System.Windows.Forms.DateTimePicker();
-            this.lblEndDate = new System.Windows.Forms.Label();
-            this.dtpEnd = new System.Windows.Forms.DateTimePicker();
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.btnBack = new System.Windows.Forms.Button();
-            this.dgvEvents = new System.Windows.Forms.DataGridView();
-            this.recPanel = new System.Windows.Forms.Panel();
-            this.lblRec = new System.Windows.Forms.Label();
-            this.lstRecommendations = new System.Windows.Forms.ListBox();
-            this.splitContainer = new System.Windows.Forms.SplitContainer();
-            this.searchTableLayoutPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEvents)).BeginInit();
-            this.recPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).BeginInit();
-            this.splitContainer.Panel1.SuspendLayout();
-            this.splitContainer.Panel2.SuspendLayout();
-            this.splitContainer.SuspendLayout();
-            this.SuspendLayout();
-
-            // Form Styling
-            this.BackColor = primaryBlue;
-            this.ForeColor = lightTextColor;
-            this.Text = "Local Events and Announcements";
-            this.ClientSize = new System.Drawing.Size(900, 600);
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            searchTableLayoutPanel = new TableLayoutPanel();
+            lblCategory = new Label();
+            cmbCategory = new ComboBox();
+            lblStartDate = new Label();
+            lblEndDate = new Label();
+            dtpStart = new DateTimePicker();
+            btnSearch = new Button();
+            btnClear = new Button();
+            btnBack = new Button();
+            dtpEnd = new DateTimePicker();
+            dgvEvents = new DataGridView();
+            recPanel = new Panel();
+            lstRecommendations = new ListBox();
+            lblRec = new Label();
+            splitContainer = new SplitContainer();
+            searchTableLayoutPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvEvents).BeginInit();
+            recPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer).BeginInit();
+            splitContainer.Panel1.SuspendLayout();
+            splitContainer.Panel2.SuspendLayout();
+            splitContainer.SuspendLayout();
+            SuspendLayout();
             // 
             // searchTableLayoutPanel
             // 
-            this.searchTableLayoutPanel.ColumnCount = 7;
-            this.searchTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.searchTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.searchTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.searchTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.searchTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.searchTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
-            this.searchTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.searchTableLayoutPanel.Controls.Add(this.lblCategory, 0, 0);
-            this.searchTableLayoutPanel.Controls.Add(this.cmbCategory, 1, 0);
-            this.searchTableLayoutPanel.Controls.Add(this.lblStartDate, 2, 0);
-            this.searchTableLayoutPanel.Controls.Add(this.dtpStart, 3, 0);
-            this.searchTableLayoutPanel.Controls.Add(this.lblEndDate, 4, 0);
-            this.searchTableLayoutPanel.Controls.Add(this.dtpEnd, 5, 0);
-            this.searchTableLayoutPanel.Controls.Add(this.btnSearch, 6, 0);
-            this.searchTableLayoutPanel.Controls.Add(this.btnClear, 6, 1);
-            this.searchTableLayoutPanel.Controls.Add(this.btnBack, 6, 2);
-            this.searchTableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Top;
-            this.searchTableLayoutPanel.Padding = new System.Windows.Forms.Padding(10);
-            this.searchTableLayoutPanel.RowCount = 3;
-            this.searchTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.searchTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.searchTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
-            this.searchTableLayoutPanel.Height = 125;
-            this.searchTableLayoutPanel.Name = "searchTableLayoutPanel";
-            this.searchTableLayoutPanel.Size = new System.Drawing.Size(900, 125);
-            this.searchTableLayoutPanel.TabIndex = 0;
-            this.searchTableLayoutPanel.BackColor = controlBackColor;
-            //
+            searchTableLayoutPanel.BackColor = Color.FromArgb(62, 142, 222);
+            searchTableLayoutPanel.ColumnCount = 7;
+            searchTableLayoutPanel.ColumnStyles.Add(new ColumnStyle());
+            searchTableLayoutPanel.ColumnStyles.Add(new ColumnStyle());
+            searchTableLayoutPanel.ColumnStyles.Add(new ColumnStyle());
+            searchTableLayoutPanel.ColumnStyles.Add(new ColumnStyle());
+            searchTableLayoutPanel.ColumnStyles.Add(new ColumnStyle());
+            searchTableLayoutPanel.ColumnStyles.Add(new ColumnStyle());
+            searchTableLayoutPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            searchTableLayoutPanel.Controls.Add(lblCategory, 0, 0);
+            searchTableLayoutPanel.Controls.Add(cmbCategory, 1, 0);
+            searchTableLayoutPanel.Controls.Add(lblStartDate, 2, 0);
+            searchTableLayoutPanel.Controls.Add(lblEndDate, 4, 0);
+            searchTableLayoutPanel.Controls.Add(dtpStart, 3, 0);
+            searchTableLayoutPanel.Controls.Add(btnSearch, 6, 1);
+            searchTableLayoutPanel.Controls.Add(btnClear, 6, 0);
+            searchTableLayoutPanel.Controls.Add(btnBack, 6, 2);
+            searchTableLayoutPanel.Controls.Add(dtpEnd, 5, 0);
+            searchTableLayoutPanel.Dock = DockStyle.Top;
+            searchTableLayoutPanel.Location = new Point(0, 0);
+            searchTableLayoutPanel.Name = "searchTableLayoutPanel";
+            searchTableLayoutPanel.Padding = new Padding(10);
+            searchTableLayoutPanel.RowCount = 3;
+            searchTableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 35F));
+            searchTableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 35F));
+            searchTableLayoutPanel.RowStyles.Add(new RowStyle(SizeType.Absolute, 35F));
+            searchTableLayoutPanel.Size = new Size(1097, 119);
+            searchTableLayoutPanel.TabIndex = 0;
+            // 
             // lblCategory
-            //
-            this.lblCategory.AutoSize = true;
-            this.lblCategory.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lblCategory.Font = labelFont;
-            this.lblCategory.Name = "lblCategory";
-            this.lblCategory.Size = new System.Drawing.Size(62, 17);
-            this.lblCategory.TabIndex = 0;
-            this.lblCategory.Text = "Category:";
-            //
+            // 
+            lblCategory.Anchor = AnchorStyles.Left;
+            lblCategory.AutoSize = true;
+            lblCategory.Font = new Font("Segoe UI", 9.5F);
+            lblCategory.Location = new Point(13, 15);
+            lblCategory.Name = "lblCategory";
+            lblCategory.Size = new Size(92, 25);
+            lblCategory.TabIndex = 0;
+            lblCategory.Text = "Category:";
+            // 
             // cmbCategory
-            //
-            this.cmbCategory.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.cmbCategory.FormattingEnabled = true;
-            this.cmbCategory.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
-            this.cmbCategory.Name = "cmbCategory";
-            this.cmbCategory.Size = new System.Drawing.Size(150, 25);
-            this.cmbCategory.TabIndex = 1;
-            //
+            // 
+            cmbCategory.Anchor = AnchorStyles.Left;
+            cmbCategory.FormattingEnabled = true;
+            cmbCategory.Location = new Point(111, 13);
+            cmbCategory.Margin = new Padding(3, 3, 10, 3);
+            cmbCategory.Name = "cmbCategory";
+            cmbCategory.Size = new Size(150, 36);
+            cmbCategory.TabIndex = 1;
+            // 
             // lblStartDate
-            //
-            this.lblStartDate.AutoSize = true;
-            this.lblStartDate.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lblStartDate.Font = labelFont;
-            this.lblStartDate.Margin = new System.Windows.Forms.Padding(10, 0, 3, 0);
-            this.lblStartDate.Name = "lblStartDate";
-            this.lblStartDate.Size = new System.Drawing.Size(68, 17);
-            this.lblStartDate.TabIndex = 2;
-            this.lblStartDate.Text = "Start Date:";
-            //
-            // dtpStart
-            //
-            this.dtpStart.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.dtpStart.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpStart.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
-            this.dtpStart.Name = "dtpStart";
-            this.dtpStart.Size = new System.Drawing.Size(120, 25);
-            this.dtpStart.TabIndex = 3;
-            //
+            // 
+            lblStartDate.Anchor = AnchorStyles.Left;
+            lblStartDate.AutoSize = true;
+            lblStartDate.Font = new Font("Segoe UI", 9.5F);
+            lblStartDate.Location = new Point(281, 15);
+            lblStartDate.Margin = new Padding(10, 0, 3, 0);
+            lblStartDate.Name = "lblStartDate";
+            lblStartDate.Size = new Size(98, 25);
+            lblStartDate.TabIndex = 2;
+            lblStartDate.Text = "Start Date:";
+            // 
             // lblEndDate
-            //
-            this.lblEndDate.AutoSize = true;
-            this.lblEndDate.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.lblEndDate.Font = labelFont;
-            this.lblEndDate.Margin = new System.Windows.Forms.Padding(10, 0, 3, 0);
-            this.lblEndDate.Name = "lblEndDate";
-            this.lblEndDate.Size = new System.Drawing.Size(63, 17);
-            this.lblEndDate.TabIndex = 4;
-            this.lblEndDate.Text = "End Date:";
-            //
-            // dtpEnd
-            //
-            this.dtpEnd.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.dtpEnd.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpEnd.Margin = new System.Windows.Forms.Padding(3, 3, 10, 3);
-            this.dtpEnd.Name = "dtpEnd";
-            this.dtpEnd.Size = new System.Drawing.Size(120, 25);
-            this.dtpEnd.TabIndex = 5;
-            //
+            // 
+            lblEndDate.Anchor = AnchorStyles.Left;
+            lblEndDate.AutoSize = true;
+            lblEndDate.Font = new Font("Segoe UI", 9.5F);
+            lblEndDate.Location = new Point(525, 15);
+            lblEndDate.Margin = new Padding(10, 0, 3, 0);
+            lblEndDate.Name = "lblEndDate";
+            lblEndDate.Size = new Size(92, 25);
+            lblEndDate.TabIndex = 4;
+            lblEndDate.Text = "End Date:";
+            // 
+            // dtpStart
+            // 
+            dtpStart.Anchor = AnchorStyles.Left;
+            dtpStart.Format = DateTimePickerFormat.Short;
+            dtpStart.Location = new Point(385, 13);
+            dtpStart.Margin = new Padding(3, 3, 10, 3);
+            dtpStart.Name = "dtpStart";
+            dtpStart.Size = new Size(120, 33);
+            dtpStart.TabIndex = 3;
+            // 
             // btnSearch
-            //
-            this.btnSearch.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(100, 30);
-            this.btnSearch.TabIndex = 6;
-            this.btnSearch.Text = "Search";
-            this.btnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
-            this.btnSearch.BackColor = accentGold;
-            this.btnSearch.ForeColor = primaryBlue;
-            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearch.FlatAppearance.BorderSize = 0;
-            this.btnSearch.Font = buttonFont;
-            //
+            // 
+            btnSearch.Anchor = AnchorStyles.Right;
+            btnSearch.BackColor = Color.FromArgb(50, 205, 50);
+            btnSearch.FlatAppearance.BorderColor = Color.FromArgb(50, 205, 50);
+            btnSearch.FlatStyle = FlatStyle.Flat;
+            btnSearch.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            btnSearch.ForeColor = Color.White;
+            btnSearch.Location = new Point(984, 48);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new Size(100, 29);
+            btnSearch.TabIndex = 6;
+            btnSearch.Text = "Search";
+            btnSearch.UseVisualStyleBackColor = false;
+            btnSearch.Click += BtnSearch_Click;
+            // 
             // btnClear
-            //
-            this.btnClear.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(100, 30);
-            this.btnClear.TabIndex = 7;
-            this.btnClear.Text = "Clear";
-            this.btnClear.Click += new System.EventHandler(this.BtnClear_Click);
-            this.btnClear.BackColor = controlBackColor;
-            this.btnClear.ForeColor = lightTextColor;
-            this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClear.FlatAppearance.BorderColor = accentGold;
-            this.btnClear.FlatAppearance.BorderSize = 1;
-            this.btnClear.Font = buttonFont;
-            //
+            // 
+            btnClear.Anchor = AnchorStyles.Right;
+            btnClear.BackColor = Color.FromArgb(62, 142, 222);
+            btnClear.FlatAppearance.BorderColor = Color.FromArgb(50, 205, 50);
+            btnClear.FlatStyle = FlatStyle.Flat;
+            btnClear.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            btnClear.ForeColor = Color.WhiteSmoke;
+            btnClear.Location = new Point(984, 13);
+            btnClear.Name = "btnClear";
+            btnClear.Size = new Size(100, 29);
+            btnClear.TabIndex = 7;
+            btnClear.Text = "Clear";
+            btnClear.UseVisualStyleBackColor = false;
+            btnClear.Click += BtnClear_Click;
+            // 
             // btnBack
-            //
-            this.btnBack.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(100, 30);
-            this.btnBack.TabIndex = 8;
-            this.btnBack.Text = "Back";
-            this.btnBack.Click += new System.EventHandler(this.BtnBack_Click);
-            this.btnBack.BackColor = controlBackColor;
-            this.btnBack.ForeColor = lightTextColor;
-            this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBack.FlatAppearance.BorderColor = accentGold;
-            this.btnBack.FlatAppearance.BorderSize = 1;
-            this.btnBack.Font = buttonFont;
-            //
+            // 
+            btnBack.Anchor = AnchorStyles.Right;
+            btnBack.BackColor = Color.FromArgb(62, 142, 222);
+            btnBack.FlatAppearance.BorderColor = Color.FromArgb(50, 205, 50);
+            btnBack.FlatStyle = FlatStyle.Flat;
+            btnBack.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            btnBack.ForeColor = Color.WhiteSmoke;
+            btnBack.Location = new Point(984, 83);
+            btnBack.Name = "btnBack";
+            btnBack.Size = new Size(100, 29);
+            btnBack.TabIndex = 8;
+            btnBack.Text = "Back";
+            btnBack.UseVisualStyleBackColor = false;
+            btnBack.Click += BtnBack_Click;
+            // 
+            // dtpEnd
+            // 
+            dtpEnd.Anchor = AnchorStyles.Left;
+            dtpEnd.Format = DateTimePickerFormat.Short;
+            dtpEnd.Location = new Point(623, 13);
+            dtpEnd.Margin = new Padding(3, 3, 10, 3);
+            dtpEnd.Name = "dtpEnd";
+            dtpEnd.Size = new Size(120, 33);
+            dtpEnd.TabIndex = 5;
+            // 
             // dgvEvents
-            //
-            this.dgvEvents.AllowUserToAddRows = false;
-            this.dgvEvents.AllowUserToDeleteRows = false;
-            this.dgvEvents.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvEvents.BackgroundColor = controlBackColor;
-            this.dgvEvents.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = primaryBlue;
-            dataGridViewCellStyle1.Font = buttonFont;
-            dataGridViewCellStyle1.ForeColor = accentGold;
-            dataGridViewCellStyle1.SelectionBackColor = primaryBlue;
-            dataGridViewCellStyle1.SelectionForeColor = accentGold;
-            this.dgvEvents.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvEvents.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEvents.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvEvents.EnableHeadersVisualStyles = false;
-            this.dgvEvents.GridColor = primaryBlue;
-            this.dgvEvents.Location = new System.Drawing.Point(0, 0);
-            this.dgvEvents.Name = "dgvEvents";
-            this.dgvEvents.ReadOnly = true;
-            this.dgvEvents.RowHeadersVisible = false;
-            dataGridViewCellStyle2.BackColor = controlBackColor;
-            dataGridViewCellStyle2.Font = labelFont;
-            dataGridViewCellStyle2.ForeColor = lightTextColor;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(0, 70, 140);
-            dataGridViewCellStyle2.SelectionForeColor = lightTextColor;
-            this.dgvEvents.RowsDefaultCellStyle = dataGridViewCellStyle2;
-            this.dgvEvents.RowTemplate.Height = 28;
-            this.dgvEvents.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvEvents.Size = new System.Drawing.Size(680, 475);
-            this.dgvEvents.TabIndex = 0;
-            //
+            // 
+            dgvEvents.AllowUserToAddRows = false;
+            dgvEvents.AllowUserToDeleteRows = false;
+            dgvEvents.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvEvents.BackgroundColor = Color.FromArgb(62, 142, 222);
+            dgvEvents.BorderStyle = BorderStyle.None;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(43, 108, 163);
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
+            dataGridViewCellStyle1.ForeColor = Color.FromArgb(50, 205, 50);
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(43, 108, 163);
+            dataGridViewCellStyle1.SelectionForeColor = Color.FromArgb(50, 205, 50);
+            dgvEvents.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dgvEvents.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvEvents.Dock = DockStyle.Fill;
+            dgvEvents.EnableHeadersVisualStyles = false;
+            dgvEvents.GridColor = Color.FromArgb(62, 142, 222);
+            dgvEvents.Location = new Point(0, 0);
+            dgvEvents.Name = "dgvEvents";
+            dgvEvents.ReadOnly = true;
+            dgvEvents.RowHeadersVisible = false;
+            dgvEvents.RowHeadersWidth = 62;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(0, 50, 100);
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9.5F);
+            dataGridViewCellStyle2.ForeColor = Color.WhiteSmoke;
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(0, 70, 140);
+            dataGridViewCellStyle2.SelectionForeColor = Color.WhiteSmoke;
+            dgvEvents.RowsDefaultCellStyle = dataGridViewCellStyle2;
+            dgvEvents.RowTemplate.Height = 28;
+            dgvEvents.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvEvents.Size = new Size(827, 481);
+            dgvEvents.TabIndex = 0;
+            // 
             // recPanel
-            //
-            this.recPanel.Controls.Add(this.lstRecommendations);
-            this.recPanel.Controls.Add(this.lblRec);
-            this.recPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.recPanel.Location = new System.Drawing.Point(0, 0);
-            this.recPanel.Padding = new System.Windows.Forms.Padding(10);
-            this.recPanel.Name = "recPanel";
-            this.recPanel.Size = new System.Drawing.Size(216, 475);
-            this.recPanel.TabIndex = 0;
-            this.recPanel.BackColor = controlBackColor;
-            //
-            // lblRec
-            //
-            this.lblRec.AutoSize = true;
-            this.lblRec.Dock = System.Windows.Forms.DockStyle.Top;
-            this.lblRec.Font = titleFont;
-            this.lblRec.Name = "lblRec";
-            this.lblRec.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
-            this.lblRec.Size = new System.Drawing.Size(236, 31);
-            this.lblRec.TabIndex = 0;
-            this.lblRec.Text = "Recommended Categories";
-            //
+            // 
+            recPanel.BackColor = Color.FromArgb(43, 108, 163);
+            recPanel.Controls.Add(lstRecommendations);
+            recPanel.Controls.Add(lblRec);
+            recPanel.Dock = DockStyle.Fill;
+            recPanel.Location = new Point(0, 0);
+            recPanel.Name = "recPanel";
+            recPanel.Padding = new Padding(10);
+            recPanel.Size = new Size(266, 481);
+            recPanel.TabIndex = 0;
+            // 
             // lstRecommendations
-            //
-            this.lstRecommendations.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lstRecommendations.Font = labelFont;
-            this.lstRecommendations.FormattingEnabled = true;
-            this.lstRecommendations.Location = new System.Drawing.Point(10, 30);
-            this.lstRecommendations.Name = "lstRecommendations";
-            this.lstRecommendations.Size = new System.Drawing.Size(180, 430);
-            this.lstRecommendations.TabIndex = 1;
-            this.lstRecommendations.BackColor = primaryBlue;
-            this.lstRecommendations.ForeColor = lightTextColor;
+            // 
+            lstRecommendations.BackColor = Color.FromArgb(62, 142, 222);
+            lstRecommendations.Dock = DockStyle.Fill;
+            lstRecommendations.Font = new Font("Segoe UI", 9.5F);
+            lstRecommendations.ForeColor = Color.WhiteSmoke;
+            lstRecommendations.FormattingEnabled = true;
+            lstRecommendations.ItemHeight = 25;
+            lstRecommendations.Location = new Point(10, 52);
+            lstRecommendations.Name = "lstRecommendations";
+            lstRecommendations.Size = new Size(246, 419);
+            lstRecommendations.TabIndex = 1;
+            // 
+            // lblRec
+            // 
+            lblRec.AutoSize = true;
+            lblRec.Dock = DockStyle.Top;
+            lblRec.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblRec.ForeColor = Color.FromArgb(50, 205, 50);
+            lblRec.Location = new Point(10, 10);
+            lblRec.Name = "lblRec";
+            lblRec.Padding = new Padding(0, 0, 0, 10);
+            lblRec.Size = new Size(312, 42);
+            lblRec.TabIndex = 0;
+            lblRec.Text = "Recommended Categories";
+            lblRec.Click += lblRec_Click;
             // 
             // splitContainer
             // 
-            this.splitContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer.Location = new System.Drawing.Point(0, 125);
-            this.splitContainer.Name = "splitContainer";
+            splitContainer.Dock = DockStyle.Fill;
+            splitContainer.Location = new Point(0, 119);
+            splitContainer.Name = "splitContainer";
             // 
             // splitContainer.Panel1
             // 
-            this.splitContainer.Panel1.Controls.Add(this.dgvEvents);
+            splitContainer.Panel1.Controls.Add(dgvEvents);
             // 
             // splitContainer.Panel2
             // 
-            this.splitContainer.Panel2.Controls.Add(this.recPanel);
-            this.splitContainer.Size = new System.Drawing.Size(900, 475);
-            this.splitContainer.SplitterDistance = 680;
-            this.splitContainer.TabIndex = 1;
+            splitContainer.Panel2.Controls.Add(recPanel);
+            splitContainer.Size = new Size(1097, 481);
+            splitContainer.SplitterDistance = 827;
+            splitContainer.TabIndex = 1;
             // 
             // LocalEventsForm
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Controls.Add(this.splitContainer);
-            this.Controls.Add(this.searchTableLayoutPanel);
-            this.Name = "LocalEventsForm";
-            this.searchTableLayoutPanel.ResumeLayout(false);
-            this.searchTableLayoutPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvEvents)).EndInit();
-            this.recPanel.ResumeLayout(false);
-            this.recPanel.PerformLayout();
-            this.splitContainer.Panel1.ResumeLayout(false);
-            this.splitContainer.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer)).EndInit();
-            this.splitContainer.ResumeLayout(false);
-            this.ResumeLayout(false);
+            AutoScaleMode = AutoScaleMode.None;
+            BackColor = Color.FromArgb(0, 30, 60);
+            ClientSize = new Size(1097, 600);
+            Controls.Add(splitContainer);
+            Controls.Add(searchTableLayoutPanel);
+            Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ForeColor = Color.WhiteSmoke;
+            Name = "LocalEventsForm";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Local Events and Announcements";
+            searchTableLayoutPanel.ResumeLayout(false);
+            searchTableLayoutPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvEvents).EndInit();
+            recPanel.ResumeLayout(false);
+            recPanel.PerformLayout();
+            splitContainer.Panel1.ResumeLayout(false);
+            splitContainer.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer).EndInit();
+            splitContainer.ResumeLayout(false);
+            ResumeLayout(false);
 
         }
 

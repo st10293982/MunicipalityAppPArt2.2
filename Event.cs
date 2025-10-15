@@ -4,6 +4,7 @@ namespace MunicipalityApp
 {
     public class Event
     {
+
         public string Id { get; set; } = Guid.NewGuid().ToString();
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
@@ -14,9 +15,7 @@ namespace MunicipalityApp
         public List<string> Tags { get; set; } = new List<string>(); // For better recommendations
         public int ViewCount { get; set; } = 0; // Track views for recommendations
 
-        /// <summary>
-        /// Parameterless constructor required for deserialization.
-        /// </summary>
+       
         public Event() { }
 
         public Event(string title, string description, DateTime date, string category, int priority, string imagePath)
