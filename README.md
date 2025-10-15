@@ -2,9 +2,9 @@
 
 **Student Name:** Okuhle Nyawo  
 **Student Number:** ST10299658  
-**Course:** PROG7312 - Practical Assessment (Part 1)
+**Course:** PROG7312 - Practical Assessment (Part 2)
 
-A comprehensive Windows Forms application developed over 4 years for efficient municipal issue reporting and management. Built with .NET and SQLite, it provides a user-friendly interface for citizens to report local issues and track their resolution.
+A comprehensive Windows Forms application developed over the year for efficient municipal issue reporting and management. Built with .NET and SQLite, it provides a user-friendly interface for citizens to report local issues and track their resolution.
 
 ## Table of Contents
 - [Features](#features)
@@ -243,6 +243,7 @@ For support and questions:
 - Email: support@municipalityapp.com
 
 ---
+
 
 
 
